@@ -1,0 +1,22 @@
+/* App Container - Full Screen Layout */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* پورے ویو پورٹ کی ہائٹ لے گا */
+  }
+  
+  /* Main Content - Will Expand */
+  .content {
+    flex-grow: 1; /* باقی جگہ بھرنے کے لیے */
+  }
+  
+  /* Footer - Always at Bottom */
+  .footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    width: 100%;
+  }
+  
